@@ -157,8 +157,9 @@ main {
 /* mind set section start */
 .mindset-section {
     background-image: url('./images/gradient2.png'), url('./images/watch.png');
-    width: 1140px;
+    max-width: 1140px;
     height: 300px;
+    margin: 200px 0px;
 }
 
 .mind {
@@ -179,5 +180,83 @@ main {
     height: 50px;
     border-radius: 5px;
     background: #FFF;
+    border: 0px;
+}
+
+/* footer design start */
+
+.future {
+    background: #151414;
+    color: #F8F8F8;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    padding: 130px 200px;
+    gap: 150px;
+}
+
+.future-details {
+    width: 50%;
+}
+
+.future-details h1 {
+    /* margin: 50px 0px 0px 0px; */
+    color: #F8F8F8;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.future-details p {
+    color: #FFF;
+    font-family: 'Work Sans', sans-serif;
+    width: 450px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.future-details h4 {
+    color: #FFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.sub-text {
+    color: #FFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.social_icon {
+    justify-content: space-around;
+    width: auto;
+    height: 46px;
+    margin-top: 20px;
+}
+
+.subcriber {
+    padding: 10px 0px;
+}
+
+.subcriber input {
+    padding: 15px 35px;
+    margin-bottom: 20px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.Subscribe-btn {
+    padding: 10px 30px;
+    color: #F15B22;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
     border: 0px;
 }
